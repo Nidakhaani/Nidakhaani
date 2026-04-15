@@ -1,477 +1,259 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Nida Khanum ✨ Network Engineer | ML Explorer | GitHub Profile</title>
-    <!-- Google Fonts + Font Awesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+Here is a complete, enhanced README.md file that incorporates your new role as a Network Engineer at Aspirare Communications, your "Pink Movie Recommender" project, and all the information from your resume, presented with a vibrant, animated, and professional aesthetic.
+```markdown
+<div align="center">
 
-        body {
-            background: linear-gradient(145deg, #fff5f9 0%, #ffe9f0 100%);
-            font-family: 'Inter', sans-serif;
-            color: #2c0b1a;
-            scroll-behavior: smooth;
-            padding: 2rem 1rem;
-        }
+<!-- Animated Header with Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20there!%20I'm%20Nida%20Khanum%20✨&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Network%20Engineer%20%7C%20Tech%20Explorer%20%7C%20ML%20Enthusiast&descAlignY=55&descSize=20" />
 
-        /* custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #ffe0e8;
-            border-radius: 10px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #f9a8c0;
-            border-radius: 10px;
-        }
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Pacifico&size=28&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Welcome+to+my+little+corner+🌸;Building+networks+%26+dreams+🌐;Machine+Learning+Explorer+🤖;Always+Learning%2C+Always+Growing+🌱;Let's+build+something+awesome!+🛠️" alt="Typing SVG" />
+</a>
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.75);
-            backdrop-filter: blur(2px);
-            border-radius: 3rem;
-            box-shadow: 0 20px 40px rgba(233, 30, 99, 0.1), 0 8px 16px rgba(0,0,0,0.05);
-            overflow: hidden;
-            padding: 2rem 2rem 1rem;
-            transition: all 0.3s;
-        }
+<br/>
 
-        /* animated gradient border effect */
-        .glow-card {
-            position: relative;
-            background: rgba(255, 248, 251, 0.9);
-            border-radius: 2rem;
-            padding: 1.8rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 10px 25px -5px rgba(249, 115, 152, 0.2);
-            transition: transform 0.2s ease, box-shadow 0.3s;
-            border: 1px solid #ffdae6;
-        }
-        .glow-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 30px -12px rgba(244, 114, 182, 0.3);
-            border-color: #fbc4d2;
-        }
+<!-- Badges Row -->
+<img src="https://komarev.com/ghpvc/?username=nidakhanum&color=ff69b4&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
+<a href="https://linkedin.com/in/nidakhanum" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:nidakhaani123@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Say+Hi!-ff69b4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
-        /* terminal style for code snippet */
-        .terminal {
-            background: #1e1a2f;
-            color: #f0e6f0;
-            font-family: 'JetBrains Mono', monospace;
-            border-radius: 1.2rem;
-            padding: 1.2rem;
-            font-size: 0.85rem;
-            overflow-x: auto;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            margin-top: 1rem;
-        }
-        .terminal .prompt {
-            color: #ffb7c5;
-        }
-
-        .badge-pill {
-            display: inline-block;
-            background: #ffecf0;
-            padding: 0.3rem 0.9rem;
-            border-radius: 40px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: #b13e64;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-            backdrop-filter: blur(2px);
-            transition: all 0.2s;
-        }
-        .badge-pill i {
-            margin-right: 6px;
-        }
-
-        .skill-icon-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-            margin: 1rem 0;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #db2777, #f472b6);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            margin-bottom: 1rem;
-            display: inline-block;
-            letter-spacing: -0.3px;
-        }
-        h3 {
-            font-weight: 600;
-            font-size: 1.4rem;
-            color: #9d174d;
-            margin-top: 0.5rem;
-            margin-bottom: 0.8rem;
-        }
-
-        .profile-header {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .btn-soft {
-            background: #ffe2ec;
-            border-radius: 40px;
-            padding: 0.6rem 1.2rem;
-            color: #b13e64;
-            font-weight: 600;
-            transition: 0.2s;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            text-decoration: none;
-            font-size: 0.9rem;
-        }
-        .btn-soft:hover {
-            background: #fbc4d6;
-            color: #6b2e46;
-            transform: scale(1.02);
-        }
-
-        .flex-stats {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            justify-content: center;
-            margin: 2rem 0;
-        }
-
-        .github-card {
-            background: #ffffffc9;
-            border-radius: 1.5rem;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 2.5rem;
-            font-size: 0.8rem;
-            color: #b35a7c;
-        }
-
-        @media (max-width: 700px) {
-            .container {
-                padding: 1rem;
-            }
-            .glow-card {
-                padding: 1.2rem;
-            }
-        }
-
-        /* wave animation */
-        .wave-svg {
-            display: block;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <!-- animated wave header (recreated with inline svg / capsul style) -->
-    <div style="text-align: center; margin-bottom: 1.5rem;">
-        <div style="position: relative;">
-            <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=Nida%20Khanum%20✨&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=28&desc=Network%20Engineer%20%7C%20ML%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=52&descSize=16" style="border-radius: 20px 20px 0 0;" alt="header wave">
-        </div>
-        <div style="margin-top: -10px;">
-            <a href="https://git.io/typing-svg">
-                <img src="https://readme-typing-svg.demolab.com?font=Pacifico&size=26&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Hello+World!+I'm+Nida+🌼;Network+Engineer+%40+Aspirare+Communications;Building+resilient+networks+🛜;Machine+Learning+Explorer+🤍;Pink+Movie+Recommender+%F0%9F%8E%AC;Always+learning%2C+always+growing+🌱" alt="Typing animation" />
-            </a>
-        </div>
-    </div>
-
-    <!-- Badges row -->
-    <div align="center" style="margin-bottom: 2rem;">
-        <img src="https://komarev.com/ghpvc/?username=nidakhanum&color=ff69b4&style=for-the-badge&label=✨+Profile+Views" alt="views" style="margin: 0 4px;">
-        <a href="mailto:nidakhaani123@gmail.com" style="text-decoration: none;"><img src="https://img.shields.io/badge/Gmail-Say%20Hi!-ff69b4?style=for-the-badge&logo=gmail&logoColor=white" alt="email"></a>
-        <a href="#" style="text-decoration: none;"><img src="https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"></a>
-        <img src="https://img.shields.io/badge/Bangalore-India-ffb3c6?style=for-the-badge" alt="location">
-    </div>
-
-    <!-- About Me + NEW JOB -->
-    <div class="glow-card">
-        <div style="display: flex; align-items: center; gap: 12px;">
-            <i class="fas fa-user-astronaut" style="font-size: 2rem; color: #f472b6;"></i>
-            <h2>🌸 About Me</h2>
-        </div>
-        <div class="terminal" style="background: #231c2e; margin-top: 12px;">
-            <span class="prompt">nida@network-engineer:~$</span> whoami<br>
-            <span style="color:#fbcfe8;">>> Nida Khanum | B.E. CSE (2027) | CGPA 8.12</span><br>
-            <span class="prompt">nida@network-engineer:~$</span> current_role<br>
-            <span style="color:#fbcfe8;">>> Network Engineer @ Aspirare Communications (Currently working) 🌐</span><br>
-            <span class="prompt">nida@network-engineer:~$</span> passions<br>
-            <span style="color:#fbcfe8;">>> Routing & Switching | Cloud Networking | Automation | ML for Networks</span><br>
-            <span class="prompt">nida@network-engineer:~$</span> mission<br>
-            <span style="color:#fbcfe8;">>> "Design reliable networks & intelligent systems that empower people." 💕</span>
-        </div>
-        <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.8rem;">
-            <span class="badge-pill"><i class="fas fa-heart"></i> Team player</span>
-            <span class="badge-pill"><i class="fas fa-rocket"></i> Quick learner</span>
-            <span class="badge-pill"><i class="fas fa-network-wired"></i> Network automation curious</span>
-            <span class="badge-pill"><i class="fas fa-chalkboard-user"></i> Volunteer & mentor</span>
-        </div>
-    </div>
-
-    <!-- Networking Skill Set (Enhanced) -->
-    <div class="glow-card">
-        <h2><i class="fas fa-globe"></i> 🌐 Core Networking & Infrastructure</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 1rem;">
-            <div>
-                <p><strong>📡 Protocols</strong></p>
-                <div class="skill-icon-group">
-                    <span class="badge-pill">TCP/IP</span><span class="badge-pill">DNS</span><span class="badge-pill">DHCP</span>
-                    <span class="badge-pill">HTTP/HTTPS</span><span class="badge-pill">FTP</span><span class="badge-pill">BGP (basics)</span>
-                </div>
-                <p><strong>🏗️ Concepts</strong></p>
-                <div class="skill-icon-group">
-                    <span class="badge-pill">LAN/WAN</span><span class="badge-pill">VLAN</span><span class="badge-pill">VPN</span>
-                    <span class="badge-pill">Subnetting</span><span class="badge-pill">Routing & Switching</span><span class="badge-pill">NAT</span>
-                </div>
-            </div>
-            <div>
-                <p><strong>🖧 Devices & Tools</strong></p>
-                <div class="skill-icon-group">
-                    <span class="badge-pill">Cisco Routers/Switches</span><span class="badge-pill">Firewalls</span><span class="badge-pill">WAPs</span>
-                    <span class="badge-pill">Wireshark</span><span class="badge-pill">Cisco Packet Tracer</span><span class="badge-pill">GNS3</span>
-                    <span class="badge-pill">Nagios / Zabbix</span>
-                </div>
-                <p><strong>☁️ Cloud Networking</strong></p>
-                <div class="skill-icon-group">
-                    <span class="badge-pill">AWS VPC</span><span class="badge-pill">Azure Networking</span><span class="badge-pill">Load Balancers</span>
-                </div>
-            </div>
-        </div>
-        <div style="margin-top: 0.5rem; background: #fff0f5; border-radius: 1rem; padding: 0.8rem;">
-            <i class="fas fa-briefcase"></i> <strong>Currently @ Aspirare Communications</strong> – managing enterprise network infrastructure, troubleshooting, and optimizing routing protocols.
-        </div>
-    </div>
-
-    <!-- Technical Skill Set + Languages -->
-    <div class="glow-card">
-        <h2><i class="fas fa-code"></i> 💻 Tech Toolbox</h2>
-        <div class="flex-stats" style="justify-content: flex-start; gap: 1rem;">
-            <img src="https://skillicons.dev/icons?i=python,java,html,css,mysql,linux&theme=light" />
-        </div>
-        <div>
-            <span class="badge-pill">Data Structures & Algorithms</span>
-            <span class="badge-pill">Object Oriented Programming</span>
-            <span class="badge-pill">DBMS (MySQL, JDBC)</span>
-            <span class="badge-pill">Operating Systems</span>
-            <span class="badge-pill">Web Development</span>
-            <span class="badge-pill">Machine Learning (basics)</span>
-            <span class="badge-pill">Python / Java</span>
-        </div>
-    </div>
-
-    <!-- Projects Section: Diamond Price Prediction + NEW PINK MOVIE RECOMMENDER -->
-    <div class="glow-card">
-        <h2><i class="fas fa-laptop-code"></i> 🔬 Featured Projects</h2>
-        
-        <div style="margin-bottom: 2rem; border-left: 4px solid #f9a8c0; padding-left: 1rem;">
-            <h3>💎 Diamond Price Prediction</h3>
-            <p><strong>Python | Machine Learning | Data Analysis</strong></p>
-            <ul style="margin-left: 1.5rem; line-height: 1.5;">
-                <li>Built ML model predicting diamond prices based on carat, cut, color, clarity</li>
-                <li>Performed data preprocessing, EDA, feature selection & model evaluation</li>
-                <li>Hands-on with regression algorithms & data visualization</li>
-            </ul>
-        </div>
-        
-        <!-- NEW PROJECT: Pink Movie Recommender (CLI + JDBC + MySQL) -->
-        <div style="border-left: 4px solid #f472b6; padding-left: 1rem; background: #fff5f9; border-radius: 1rem; padding: 1rem;">
-            <h3>🎬 Pink Movie Recommender <span style="font-size: 0.8rem;">(CLI Based | Core Java + MySQL)</span></h3>
-            <p><strong>Tech stack: Core Java, JDBC, MySQL, Layered Architecture</strong></p>
-            <ul style="margin-left: 1.5rem;">
-                <li>🎯 <strong>Objective:</strong> Command-line app that recommends movies based on user's mood (happy, sad, romantic, etc.)</li>
-                <li>⚙️ <strong>Features:</strong> Add new movies, view all movies, mood-based recommendation, remove movies</li>
-                <li>🏗️ <strong>Architecture:</strong> DTO, DAO, Service, Main layers – clean separation of concerns</li>
-                <li>💾 <strong>Database:</strong> MySQL with `movies` table storing name, genre, mood</li>
-                <li>✨ <strong>Outcome:</strong> Real-world demonstration of Java & DB integration for recommendation logic</li>
-            </ul>
-            <div style="margin-top: 12px;">
-                <span class="badge-pill"><i class="fab fa-java"></i> Core Java</span>
-                <span class="badge-pill"><i class="fas fa-database"></i> MySQL + JDBC</span>
-                <span class="badge-pill"><i class="fas fa-terminal"></i> CLI interface</span>
-                <span class="badge-pill"><i class="fas fa-layer-group"></i> Layered architecture</span>
-            </div>
-            <div class="terminal" style="margin-top: 10px; background: #1a1525;">
-                <span style="color:#ffb7c5">$ java PinkMovieRecommender</span><br>
-                <span>✨ Welcome to Pink Movie Recommender ✨<br>
-                1. Add Movie<br>
-                2. View all Movies<br>
-                3. Recommend by mood (🎭 happy/sad/romantic/excited)<br>
-                4. Remove movie<br>
-                >> Enter your choice: ...</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Experience + Volunteering & Certifications -->
-    <div class="glow-card">
-        <h2><i class="fas fa-briefcase"></i> 💼 Experience & Volunteering</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-            <div style="flex: 1; min-width: 200px;">
-                <p><i class="fas fa-network-wired" style="color:#db2777;"></i> <strong>Network Engineer (Current)</strong><br> Aspirare Communications – Enterprise network configuration, troubleshooting, monitoring with Nagios & Wireshark.</p>
-                <p><i class="fas fa-chalkboard-user"></i> <strong>ML Workshop</strong> – Innomatics Research Labs (5-day hands-on ML)</p>
-                <p><i class="fas fa-hand-sparkles"></i> <strong>QCFI Volunteer</strong> – Quantum computing events (Sept 2023 & 2025)</p>
-                <p><i class="fas fa-user-graduate"></i> <strong>Placement Team Volunteer</strong> – College placement cell coordinator</p>
-            </div>
-            <div style="flex: 1;">
-                <p><i class="fas fa-certificate"></i> <strong>Certifications</strong></p>
-                <ul>
-                    <li>Microsoft Azure AI Fundamentals (AI-900)</li>
-                    <li>Microsoft Azure Fundamentals (AZ-900)</li>
-                    <li>Innovation & Design Thinking – Comedkares</li>
-                    <li>Java & C++ – Udemy (2024)</li>
-                    <li>Java Programming Fundamentals (OOP)</li>
-                    <li>Innomatics – Machine Learning Workshop</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- GitHub Stats + cool extra animation -->
-    <div class="glow-card" align="center">
-        <h2><i class="fab fa-github"></i> 📊 GitHub Analytics</h2>
-        <div class="flex-stats">
-            <img src="https://github-readme-stats.vercel.app/api?username=nidakhanum&show_icons=true&theme=rose_pine&border_radius=15&hide_border=true&title_color=F472B6&icon_color=F472B6&text_color=9D174D&bg_color=FFF0F6" height="170" alt="stats">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidakhanum&layout=compact&theme=rose_pine&border_radius=15&hide_border=true&title_color=F472B6&text_color=9D174D&bg_color=FFF0F6" height="170" alt="langs">
-        </div>
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=nidakhanum&theme=pink-ribbon&hide_border=true&border_radius=15&ring=F472B6&fire=E11D48&currStreakLabel=9D174D" height="150" alt="streak">
-        <div style="margin-top: 1rem;">
-            <img src="https://github-profile-trophy.vercel.app/?username=nidakhanum&theme=onedark&no-frame=true&row=1&column=6&margin-w=10&margin-h=10&title_color=F472B6&icon_color=F472B6" width="100%">
-        </div>
-    </div>
-
-    <!-- animated soft skills + declaration with fun wave -->
-    <div class="glow-card">
-        <h2><i class="fas fa-star-of-life"></i> 🌸 Soft Skills & Vibes</h2>
-        <div align="center">
-            <span class="badge-pill"><i class="fas fa-users"></i> Team Collaboration</span>
-            <span class="badge-pill"><i class="fas fa-crown"></i> Leadership</span>
-            <span class="badge-pill"><i class="fas fa-comments"></i> Effective Communication</span>
-            <span class="badge-pill"><i class="fas fa-seedling"></i> Adaptability</span>
-            <span class="badge-pill"><i class="fas fa-hourglass-half"></i> Time Management</span>
-            <span class="badge-pill"><i class="fas fa-brain"></i> Quick Learner</span>
-            <span class="badge-pill"><i class="fas fa-smile"></i> Positive Attitude</span>
-        </div>
-        <hr style="margin: 1rem 0; border-color: #ffe0e8;">
-        <p style="text-align: center; font-style: italic;">✨ <strong>Declaration:</strong> I hereby declare that the information above is true to the best of my knowledge. ✨</p>
-        <div align="center" style="margin-top: 1rem;">
-            <a href="mailto:nidakhaani123@gmail.com" class="btn-soft"><i class="fas fa-paper-plane"></i> Hire me or Collab</a>
-            <a href="#" class="btn-soft"><i class="fab fa-linkedin"></i> Connect on LinkedIn</a>
-        </div>
-    </div>
-
-    <!-- Latest addition: Dynamic terminal quote and current work status -->
-    <div style="background: #1e1a2f; border-radius: 2rem; padding: 0.8rem 1.2rem; margin-top: 1rem; color: #fbcfe8; font-family: monospace; text-align: center;">
-        <i class="fas fa-terminal"></i> nida@aspirare:~$ <span id="dynamic-typing"></span>
-    </div>
-
-    <footer>
-        <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
-        <p>💖 "The best way to predict the future is to create it." – Nida Khanum | Network Engineer & Creator 💖</p>
-        <p>📍 Bangalore, India | 2026</p>
-    </footer>
 </div>
 
-<script>
-    // enhanced typing effect for bottom line
-    const phrases = [
-        "Currently building resilient networks @Aspirare Communications 🌐",
-        "Pink Movie Recommender – CLI + JDBC + MySQL 🎬",
-        "Learning advanced routing & cloud networking ☁️",
-        "Diamond price prediction ML model ready 💎",
-        "Open to networking opportunities ✨"
-    ];
-    let idx = 0;
-    let charIdx = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingElement = document.getElementById("dynamic-typing");
-    function typeEffect() {
-        if (!typingElement) return;
-        if (isDeleting) {
-            currentText = currentText.slice(0, -1);
-            typingElement.innerHTML = currentText + "▌";
-            if (currentText === "") {
-                isDeleting = false;
-                idx = (idx + 1) % phrases.length;
-            }
-            setTimeout(typeEffect, 60);
-        } else {
-            let fullText = phrases[idx];
-            if (charIdx < fullText.length) {
-                currentText += fullText[charIdx];
-                typingElement.innerHTML = currentText + "▌";
-                charIdx++;
-                setTimeout(typeEffect, 80);
-            } else {
-                isDeleting = true;
-                charIdx = 0;
-                setTimeout(typeEffect, 2200);
-            }
-        }
-    }
-    setTimeout(typeEffect, 500);
+---
 
-    // add floating hearts / extra animation? subtle
-    const addSparkle = () => {
-        let container = document.body;
-        let spark = document.createElement("div");
-        spark.innerHTML = "🌸";
-        spark.style.position = "fixed";
-        spark.style.fontSize = "12px";
-        spark.style.left = Math.random() * window.innerWidth + "px";
-        spark.style.top = "0px";
-        spark.style.opacity = "0.7";
-        spark.style.pointerEvents = "none";
-        spark.style.transition = "transform 3s linear, opacity 3s";
-        spark.style.zIndex = "9999";
-        container.appendChild(spark);
-        let y = 0;
-        let fall = setInterval(() => {
-            if (y > window.innerHeight) {
-                clearInterval(fall);
-                spark.remove();
-            } else {
-                y += 3;
-                spark.style.top = y + "px";
-                spark.style.transform = `rotate(${y}deg)`;
-            }
-        }, 20);
-        setTimeout(() => {
-            if (spark) spark.style.opacity = "0";
-            setTimeout(() => spark?.remove(), 3000);
-        }, 2500);
-    };
-    // gentle sparkles every 10 seconds only if user active (just for fun)
-    setInterval(() => {
-        if (Math.random() > 0.7) addSparkle();
-    }, 10000);
-</script>
-</body>
-</html>
+<div align="center">
+
+## 🌸 About Me
+
+</div>
+
+```python
+class NidaKhanum:
+    def __init__(self):
+        self.name        = "Nida Khanum"
+        self.role        = "Network Engineer @ Aspirare Communications 🌐"
+        self.location    = "Bangalore, Karnataka 🇮🇳"
+        self.university  = "T John Institute of Technology"
+        self.degree      = "B.E. Computer Science Engineering"
+        self.cgpa        = "8.12 / 10 ⭐"
+        self.batch       = "2023 – 2027"
+        self.passions    = ["Networking & Infrastructure 🌐", "Machine Learning 🤖", "Problem Solving 🧩"]
+        self.hobbies     = ["Volunteering 💕", "Exploring Tech 🔭", "Learning new things 📚"]
+        self.goal        = "To build meaningful tech & grow every single day 🚀"
+        self.motto       = "Connect, Create, Innovate ✨"
+
+    def say_hello(self):
+        return "Hey! Thanks for visiting. Let's connect and build something amazing!"
+
+me = NidaKhanum()
+print(me.say_hello())
+```
+
+---
+
+<div align="center">
+
+## 💼 Current Role
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=9D174D&center=true&vCenter=true&width=600&lines=Network+Engineer+@+Aspirare+Communications;Designing+%26+Managing+Robust+Networks;Troubleshooting+%26+Optimizing+Performance;Bringing+Connectivity+to+Life!" alt="Current Role Typing" />
+
+<br/>
+
+![Networking](https://img.shields.io/badge/🌐%20Network%20Infrastructure-ff9eb5?style=for-the-badge)
+![Troubleshooting](https://img.shields.io/badge/🔧%20Troubleshooting-ffb3c6?style=for-the-badge)
+![Routing](https://img.shields.io/badge/📡%20Routing%20%26%20Switching-ffc8d6?style=for-the-badge)
+![Security](https://img.shields.io/badge/🛡️%20Network%20Security-ffd6e7?style=for-the-badge)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌐 Networking Skill Set
+
+<img src="https://skillicons.dev/icons?i=linux,bash,cloudflare&theme=light" />
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+**🔗 Protocols**
+
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-ff9eb5?style=flat-square)
+![DNS](https://img.shields.io/badge/DNS-ffb3c6?style=flat-square)
+![DHCP](https://img.shields.io/badge/DHCP-ffc8d6?style=flat-square)
+![HTTP/HTTPS](https://img.shields.io/badge/HTTP%2FHTTPS-ff9eb5?style=flat-square)
+![FTP](https://img.shields.io/badge/FTP-ffb3c6?style=flat-square)
+
+</td>
+<td align="center" width="33%">
+
+**🏗️ Concepts**
+
+![LAN](https://img.shields.io/badge/LAN-c9b8f5?style=flat-square)
+![WAN](https://img.shields.io/badge/WAN-d4c4f7?style=flat-square)
+![VLAN](https://img.shields.io/badge/VLAN-bea8f3?style=flat-square)
+![VPN](https://img.shields.io/badge/VPN-c9b8f5?style=flat-square)
+![Subnetting](https://img.shields.io/badge/Subnetting-d4c4f7?style=flat-square)
+![Routing & Switching](https://img.shields.io/badge/Routing%20%26%20Switching-bea8f3?style=flat-square)
+
+</td>
+<td align="center" width="33%">
+
+**🖥️ Devices & Tools**
+
+![Routers](https://img.shields.io/badge/Routers-b8e0ff?style=flat-square)
+![Switches](https://img.shields.io/badge/Switches-c8e8ff?style=flat-square)
+![Firewalls](https://img.shields.io/badge/Firewalls-a8d8ff?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-b8e0ff?style=flat-square)
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20PT-c8e8ff?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 💻 Technical Skills
+
+<img src="https://skillicons.dev/icons?i=python,java,html,css,mysql&theme=light" />
+
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-ffd6e7?style=for-the-badge&logo=python&logoColor=c9184a)
+![Java](https://img.shields.io/badge/Java-ffe5ee?style=for-the-badge&logo=openjdk&logoColor=c9184a)
+![OOP](https://img.shields.io/badge/OOP-ffc8d6?style=for-the-badge&logo=abstractivesolutions&logoColor=c9184a)
+![DBMS](https://img.shields.io/badge/DBMS-ffb3c6?style=for-the-badge&logo=database&logoColor=c9184a)
+![OS](https://img.shields.io/badge/Operating%20Systems-ff9eb5?style=for-the-badge&logo=linux&logoColor=white)
+![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-ffd6e7?style=for-the-badge)
+![Web Dev](https://img.shields.io/badge/Web%20Development-ffe5ee?style=for-the-badge&logo=html5&logoColor=c9184a)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-ffc8d6?style=for-the-badge&logo=tensorflow&logoColor=c9184a)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🔬 Featured Projects
+
+</div>
+
+### 💎 Diamond Price Prediction
+> *Python • Machine Learning • Data Analysis*
+
+- 🔍 Built an ML model to predict diamond prices based on carat, cut, colour & clarity
+- 🧹 Performed data preprocessing & exploratory data analysis (EDA)
+- 📊 Trained and evaluated multiple prediction models to improve accuracy
+- 🎯 Gained hands-on experience in feature selection, data handling & model evaluation
+
+### 🎬 Pink Movie Recommender
+> *Core Java • MySQL • JDBC • CLI*
+
+- 🍿 Developed a command-line movie recommendation system based on user mood
+- 🗄️ Implemented layered architecture (DTO, DAO, Service, Main) for clean separation of concerns
+- 🎭 Features: Add movies, View all, Recommend by mood, Remove movies
+- 💾 Integrated MySQL database using JDBC for persistent storage
+- 🌟 Demonstrated practical application of Java, database connectivity, and recommendation logic
+
+---
+
+<div align="center">
+
+## 🎓 Certifications
+
+</div>
+
+<div align="center">
+
+| 🏆 Certification | 🏫 Issuer |
+|:---|:---|
+| ☁️ Microsoft Azure AI Fundamentals | Microsoft |
+| ☁️ Microsoft Azure Fundamentals | Microsoft |
+| 💡 Innovation and Design Thinking | Comedkares |
+| ☕ Java & C++ | Udemy (2024) |
+| 🤖 Machine Learning Workshop | Innomatics (2025) |
+| 🧠 Java Programming Fundamentals | Online |
+
+</div>
+
+---
+
+<div align="center">
+
+## 💼 Experience & Volunteering
+
+</div>
+
+🌐 **Network Engineer** — *Aspirare Communications (Current)*
+> - Designing, configuring, and maintaining network infrastructure
+> - Troubleshooting network issues and ensuring optimal performance
+> - Implementing routing, switching, and security protocols
+
+🤖 **Machine Learning Workshop** — *Innomatics Research Labs*
+> - Attended a 5-day hands-on workshop on ML fundamentals & real-time applications
+
+⚛️ **Volunteer** — *QCFI Events (Sept 2023 & Sept 2025)*
+> - Helped organize quantum computing events; collaborated with researchers & industry experts
+
+🎓 **Placement Team Volunteer** — *College Placement Cell*
+> - Coordinated placement drives between students, recruiters & HR teams
+
+---
+
+<div align="center">
+
+## 🌸 Soft Skills
+
+![Team Collaboration](https://img.shields.io/badge/🤝%20Team%20Collaboration-ffd6e7?style=for-the-badge)
+![Leadership](https://img.shields.io/badge/👑%20Leadership-ffe5ee?style=for-the-badge)
+![Communication](https://img.shields.io/badge/💬%20Communication-ffc8d6?style=for-the-badge)
+![Adaptability](https://img.shields.io/badge/🌿%20Adaptability-ffb3c6?style=for-the-badge)
+![Time Management](https://img.shields.io/badge/⏰%20Time%20Management-ff9eb5?style=for-the-badge)
+![Quick Learner](https://img.shields.io/badge/⚡%20Quick%20Learner-ffd6e7?style=for-the-badge)
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=nidakhanum&show_icons=true&theme=rose_pine&border_radius=15&hide_border=true&title_color=F472B6&icon_color=F472B6&text_color=9D174D&bg_color=FFF0F6" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidakhanum&layout=compact&theme=rose_pine&border_radius=15&hide_border=true&title_color=F472B6&text_color=9D174D&bg_color=FFF0F6" height="170"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=nidakhanum&theme=pink-ribbon&hide_border=true&border_radius=15&ring=F472B6&fire=E11D48&currStreakLabel=9D174D" height="170"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌸 Let's Connect!
+
+[![Gmail](https://img.shields.io/badge/📧%20nidakhaani123@gmail.com-ff69b4?style=for-the-badge)](mailto:nidakhaani123@gmail.com)
+[![Phone](https://img.shields.io/badge/📞%20%2B91%209741273242-ffb3c6?style=for-the-badge)](tel:+919741273242)
+[![Location](https://img.shields.io/badge/📍%20Bangalore%2C%20Karnataka-ffd6e7?style=for-the-badge)](#)
+
+<br/>
+
+*"The best way to predict the future is to create it. 💕"*
+
+<!-- Footer Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
+
+</div>
+```
