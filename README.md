@@ -1,25 +1,19 @@
-Here is a complete, enhanced README.md file that incorporates your new role as a Network Engineer at Aspirare Communications, your "Pink Movie Recommender" project, and all the information from your resume, presented with a vibrant, animated, and professional aesthetic.
-```markdown
 <div align="center">
 
 <!-- Animated Header with Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20there!%20I'm%20Nida%20Khanum%20✨&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Network%20Engineer%20%7C%20Tech%20Explorer%20%7C%20ML%20Enthusiast&descAlignY=55&descSize=20" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi%20there!%20I'm%20Nida%20Khanum%20✨&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Computer%20Science%20%7C%20Networking%20%7C%20ML%20Explorer&descAlignY=55&descSize=18" />
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Pacifico&size=28&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Welcome+to+my+little+corner+🌸;Building+networks+%26+dreams+🌐;Machine+Learning+Explorer+🤖;Always+Learning%2C+Always+Growing+🌱;Let's+build+something+awesome!+🛠️" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Pacifico&size=26&pause=1000&color=F472B6&center=true&vCenter=true&width=600&lines=Welcome+to+my+little+corner+🌸;Future+Network+Engineer+💻;Machine+Learning+Enthusiast+🤖;Always+Learning%2C+Always+Growing+🌱;Building+cool+things+one+line+at+a+time+🛠️" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <!-- Badges Row -->
-<img src="https://komarev.com/ghpvc/?username=nidakhanum&color=ff69b4&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
-<a href="https://linkedin.com/in/nidakhanum" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:nidakhaani123@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Say+Hi!-ff69b4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
+![Profile Views](https://komarev.com/ghpvc/?username=nidakhanum&color=ff69b4&style=for-the-badge&label=Profile+Views)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Gmail-Say+Hi!-ff69b4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nidakhaani123@gmail.com)
 
 </div>
 
@@ -35,19 +29,17 @@ Here is a complete, enhanced README.md file that incorporates your new role as a
 class NidaKhanum:
     def __init__(self):
         self.name        = "Nida Khanum"
-        self.role        = "Network Engineer @ Aspirare Communications 🌐"
         self.location    = "Bangalore, Karnataka 🇮🇳"
         self.university  = "T John Institute of Technology"
         self.degree      = "B.E. Computer Science Engineering"
         self.cgpa        = "8.12 / 10 ⭐"
         self.batch       = "2023 – 2027"
-        self.passions    = ["Networking & Infrastructure 🌐", "Machine Learning 🤖", "Problem Solving 🧩"]
+        self.passions    = ["Networking 🌐", "Machine Learning 🤖", "Problem Solving 🧩"]
         self.hobbies     = ["Volunteering 💕", "Exploring Tech 🔭", "Learning new things 📚"]
         self.goal        = "To build meaningful tech & grow every single day 🚀"
-        self.motto       = "Connect, Create, Innovate ✨"
 
     def say_hello(self):
-        return "Hey! Thanks for visiting. Let's connect and build something amazing!"
+        return "Hey! Thanks for visiting. Let's connect!"
 
 me = NidaKhanum()
 print(me.say_hello())
@@ -57,26 +49,9 @@ print(me.say_hello())
 
 <div align="center">
 
-## 💼 Current Role
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=9D174D&center=true&vCenter=true&width=600&lines=Network+Engineer+@+Aspirare+Communications;Designing+%26+Managing+Robust+Networks;Troubleshooting+%26+Optimizing+Performance;Bringing+Connectivity+to+Life!" alt="Current Role Typing" />
-
-<br/>
-
-![Networking](https://img.shields.io/badge/🌐%20Network%20Infrastructure-ff9eb5?style=for-the-badge)
-![Troubleshooting](https://img.shields.io/badge/🔧%20Troubleshooting-ffb3c6?style=for-the-badge)
-![Routing](https://img.shields.io/badge/📡%20Routing%20%26%20Switching-ffc8d6?style=for-the-badge)
-![Security](https://img.shields.io/badge/🛡️%20Network%20Security-ffd6e7?style=for-the-badge)
-
-</div>
-
----
-
-<div align="center">
-
 ## 🌐 Networking Skill Set
 
-<img src="https://skillicons.dev/icons?i=linux,bash,cloudflare&theme=light" />
+<img src="https://skillicons.dev/icons?i=linux,bash&theme=light" />
 
 </div>
 
@@ -107,13 +82,12 @@ print(me.say_hello())
 </td>
 <td align="center" width="33%">
 
-**🖥️ Devices & Tools**
+**🖥️ Devices**
 
 ![Routers](https://img.shields.io/badge/Routers-b8e0ff?style=flat-square)
 ![Switches](https://img.shields.io/badge/Switches-c8e8ff?style=flat-square)
 ![Firewalls](https://img.shields.io/badge/Firewalls-a8d8ff?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-b8e0ff?style=flat-square)
-![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20PT-c8e8ff?style=flat-square)
+![WAPs](https://img.shields.io/badge/Wireless%20Access%20Points-b8e0ff?style=flat-square)
 
 </td>
 </tr>
@@ -144,7 +118,7 @@ print(me.say_hello())
 
 <div align="center">
 
-## 🔬 Featured Projects
+## 🔬 Projects
 
 </div>
 
@@ -155,15 +129,6 @@ print(me.say_hello())
 - 🧹 Performed data preprocessing & exploratory data analysis (EDA)
 - 📊 Trained and evaluated multiple prediction models to improve accuracy
 - 🎯 Gained hands-on experience in feature selection, data handling & model evaluation
-
-### 🎬 Pink Movie Recommender
-> *Core Java • MySQL • JDBC • CLI*
-
-- 🍿 Developed a command-line movie recommendation system based on user mood
-- 🗄️ Implemented layered architecture (DTO, DAO, Service, Main) for clean separation of concerns
-- 🎭 Features: Add movies, View all, Recommend by mood, Remove movies
-- 💾 Integrated MySQL database using JDBC for persistent storage
-- 🌟 Demonstrated practical application of Java, database connectivity, and recommendation logic
 
 ---
 
@@ -194,19 +159,14 @@ print(me.say_hello())
 
 </div>
 
-🌐 **Network Engineer** — *Aspirare Communications (Current)*
-> - Designing, configuring, and maintaining network infrastructure
-> - Troubleshooting network issues and ensuring optimal performance
-> - Implementing routing, switching, and security protocols
-
 🤖 **Machine Learning Workshop** — *Innomatics Research Labs*
-> - Attended a 5-day hands-on workshop on ML fundamentals & real-time applications
+> Attended a 5-day hands-on workshop on ML fundamentals & real-time applications
 
 ⚛️ **Volunteer** — *QCFI Events (Sept 2023 & Sept 2025)*
-> - Helped organize quantum computing events; collaborated with researchers & industry experts
+> Helped organize quantum computing events; collaborated with researchers & industry experts
 
 🎓 **Placement Team Volunteer** — *College Placement Cell*
-> - Coordinated placement drives between students, recruiters & HR teams
+> Coordinated placement drives between students, recruiters & HR teams
 
 ---
 
@@ -256,4 +216,3 @@ print(me.say_hello())
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
 
 </div>
-```
