@@ -32,7 +32,7 @@ class NidaKhanum:
         self.location    = "Bangalore, Karnataka 🇮🇳"
         self.university  = "T John Institute of Technology"
         self.degree      = "B.E. Computer Science Engineering"
-        self.cgpa        = "8.12 / 10 ⭐"
+        self.cgpa        = "8.28 / 10 ⭐"
         self.batch       = "2023 – 2027"
         self.passions    = ["Networking 🌐", "Machine Learning 🤖", "Problem Solving 🧩"]
         self.hobbies     = ["Volunteering 💕", "Exploring Tech 🔭", "Learning new things 📚"]
