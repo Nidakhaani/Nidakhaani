@@ -1,8 +1,3 @@
-### 🚀 Professional GitHub Profile Overhaul
-
-This enhanced profile integrates your new role at **Aspirare Communications**, adds the **Pink Movie Recommender** project, and utilizes high-quality SVG animations and a sleek "Midnight & Sakura" aesthetic.
-
-```markdown
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,5,10,13&height=200&section=header&text=Nida%20Khanum%20✨&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Network%20Engineer%20@%20Aspirare%20Communications%20|%20CS%20Engineering%20Student&descAlignY=58&descSize=20" />
@@ -107,4 +102,3 @@ This enhanced profile integrates your new role at **Aspirare Communications**, a
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,5,10,13&height=120&section=footer&animation=twinkling"/>
 
 </div>
-```
